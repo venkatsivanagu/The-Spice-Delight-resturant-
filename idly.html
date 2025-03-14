@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Idly Zone</title>
+        <link rel="icon" href="HangIn.png" alt="hangin logo">
+        <link rel="stylesheet" href="idly.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body style="background-color: rgba(7, 7, 7, 0.708);">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top opacity-75" data-bs-theme="dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto me-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html" target="_blank">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Contact-Us-Form-Using-HTML-and-CSS-main/index.html" target="_blank">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+            <span class="navbar-text" style="font-size: 20px;">
+                <b>The Spice Delight</b>
+              </span>
+          </div>
+        </div>
+      </nav><br><br>
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel1 w-75" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1500">
+                <img src="idly_img/i3.jpg" class="d-block" alt="Rava idly" width="1300px" height="420px">
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="idly_img/i4.jpg" class="d-block" alt="Se idly" width="1300px" height="420px">
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="idly_img/i2.jpg" class="d-block" alt="millet Idly" width="1300px" height="420px">
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="idly_img/i5.jpg" class="d-block" alt="millet Idly" width="1300px" height="420px">
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="idly_img/i6.jpg" class="d-block" alt="millet Idly" width="1300px" height="420px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br><br>
+        <div class="card card2 w-50">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="idly_img/n_idly.jpg" class="img-fluid img1 rounded-start" alt="Normal Idly">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Plain Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                  <p class="card-text">Soft, fluffy, and versatile, these South Indian delights never fail to warm hearts and bring joy with every delightful bite. Here we bring to you a list of types of idlis you definitely need to try out.</p>
+                  <h5 class="card-title">₹ 40[Four peices] <div class="qnt">qty</div> <form>
+                    <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number1')" value="Decrease Value">-</div>
+                   <input type="number" id="number1" value="1" />
+                   <div class="value-button increase" onclick="modifyValue('increase', 1, 'number1')" value="Increase Value">+</div>
+                    <a href="" onclick="ordernnow()" class="btn btn-dark btn1">Order Now</a></form></a></h5>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
+          <div class="card card2 w-50">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="idly_img/C_idly.jpg" class="img-fluid img1 rounded-start" alt="Chitti Idly" style="width:230px; height: 160px;position: relative; top:20px">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Chitti Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                  <p class="card-text">Tiny, bite-sized idlis, often served with sambar or coconut chutney, are perfect for snacking.</p>
+                  <h5 class="card-title">₹ 40[Eight peices] <div class="qnt">qty</div> <form>
+                    <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number2')" value="Decrease Value">-</div>
+              <input type="number" id="number2" value="1" />
+              <div class="value-button increase" onclick="modifyValue('increase', 1, 'number2')" value="Increase Value">+</div>
+                    <a href="" onclick="ordernnow()"  class="btn btn-dark btn1">Order Now</a></form></h5>
+                </div>
+              </div>
+            </div>
+            </div><br><br>
+            <div class="card card2 w-50">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="idly_img/s_idly.jpg" class="img-fluid img1 rounded-start" alt="sambar Idly">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Sambar Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                    <p class="card-text">A fusion variety with a spicy and tangy Schezwan sauce twist. This is a lip-smacking idli you definitely need to try.</p>
+                    <h5 class="card-title">₹ 50[Four peices] <div class="qnt">qty</div> <form>
+                      <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number3')" value="Decrease Value">-</div>
+              <input type="number" id="number3" value="1" />
+              <div class="value-button increase" onclick="modifyValue('increase', 1, 'number3')" value="Increase Value">+</div>
+                      <a href=""  onclick="ordernnow()" class="btn btn-dark btn1">Order Now</a></form></h5>
+                  </div>
+                </div>
+              </div>
+            </div><br><br>
+        <div class="card card2 w-50">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="idly_img/p_idly.jpg" class="img-fluid img1 rounded-start" alt="podi Idly" style="position: relative;top:50px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Podi Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                  <p class="card-text">Podi idli is a quick, protein-rich, and gluten-free South Indian breakfast dish. It's made by tossing steamed idlis in a spicy ground lentil condiment called podi. Podi idli can also be eaten as an evening snack.</p>
+                  <h5 class="card-title">₹ 50[Four peices] <div class="qnt">qty</div> <form>
+                    <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number10')" value="Decrease Value">-</div>
+              <input type="number" id="number10" value="1" />
+              <div class="value-button increase" onclick="modifyValue('increase', 1, 'number10')" value="Increase Value">+</div>
+                    <a href="" onclick="ordernnow()"  class="btn btn-dark btn1">Order Now</a></form></h5>
+                </div>
+              </div>
+            </div>
+            </div><br><br>
+          <div class="card card2 w-50">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="idly_img/v_idly.jpeg" class="img-fluid img1 rounded-start" alt="vegetable Idly" style="transform: rotate(270deg); width: 170px; height: 230px; position: relative; left: 30px; top:10px;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">vegetable Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                    <p class="card-text">It incorporates finely chopped veggies like carrots and beans into the batter, making it colorful and nutritious.</p>
+                    <h5 class="card-title">₹ 50[Four peices] <div class="qnt">qty</div> <form>
+                      <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number4')" value="Decrease Value">-</div>
+              <input type="number" id="number4" value="1" />
+              <div class="value-button increase" onclick="modifyValue('increase', 1, 'number4')" value="Increase Value">+</div>
+                      <a href="" onclick="ordernnow()"  class="btn btn-dark btn1">Order Now</a></form></h5>
+                  </div>
+                </div>
+              </div>
+              </div><br><br>
+              <div class="card card2 w-50">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="idly_img/g_idly.jpg" class="img-fluid img1 rounded-start" alt="Ghee Idly">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Ghee Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                      <p class="card-text">Made with semolina or rava instead of rice and Ghee, these idlis have a unique texture and are quicker to prepare.</p>
+                      <h5 class="card-title">₹ 60[Four peices] <div class="qnt">qty</div> <form>
+                        <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number5')" value="Decrease Value">-</div>
+              <input type="number" id="number5" value="1" />
+              <div class="value-button increase" onclick="modifyValue('increase', 1, 'number5')" value="Increase Value">+</div>
+                        <a href="" onclick="ordernnow()"  class="btn btn-dark btn1">Order Now</a></form></h5>
+                    </div>
+                  </div>
+                </div>
+              </div><br><br>
+          <div class="card card2 w-50">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="idly_img/i2.jpg" class="img-fluid img1 rounded-start" alt="fried Idly" style="width:230px; height: 160px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Fried Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                  <p class="card-text">This is a new take on idli, instead of merely steaming them to make them hot. These are fried in spices and chutney and garnished with coconut and vegetables; it's a pure delight.</p>
+                  <h5 class="card-title">₹ 70[Four peices] <div class="qnt">qty</div> <form>
+                    <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number6')" value="Decrease Value">-</div>
+              <input type="number" id="number6" value="1" />
+              <div class="value-button increase" onclick="modifyValue('increase', 1, 'number6')" value="Increase Value">+</div>
+                    <a href="" onclick="ordernnow()"  class="btn btn-dark btn1">Order Now</a></form> </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <a href="#"><button class="btn btn-danger top" id="scrollButton">top</button></a> -->
+          <a href="#"><img src="uo.png" class="top" id="scrollButton" alt="upparrow"></a>
+          <br><br>
+        <div class="card card2 w-50">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="idly_img/m_idly.jpeg" class="img-fluid img1 rounded-start" alt="Millets Idly" style="transform: rotate(270deg); width: 170px; height: 230px; position: relative; left: 30px; top:10px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Millets Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                  <p class="card-text">Made from various millets like foxtail, finger millet, or barnyard millet, for added nutrition, these are effective in weight loss too.</p>
+                  <h5 class="card-title">₹ 80[Four peices] <div class="qnt">qty</div> <form>
+                    <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number7')" value="Decrease Value">-</div>
+              <input type="number" id="number7" value="1" />
+              <div class="value-button increase" onclick="modifyValue('increase', 1, 'number7')" value="Increase Value">+</div>
+                    <a href="" onclick="ordernnow()" class="btn btn-dark btn1">Order Now</a></form></h5>
+                </div>
+              </div>
+            </div>
+            </div><br><br>
+            <div class="card card2 w-50">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="idly_img/o_idly.jpg" class="img-fluid img1 rounded-start" alt="Oats Idly" style="width:230px; height: 160px;position: relative; top:40px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Oats Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                      <p class="card-text">It's a healthy twist on the traditional idli and is made with fiber-rich oats instead of rice.</p>
+                      <h5 class="card-title">₹ 80[Four peices] <div class="qnt">qty</div> <form>
+                        <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number8')" value="Decrease Value">-</div>
+              <input type="number" id="number8" value="1" />
+              <div class="value-button increase" onclick="modifyValue('increase', 1, 'number8')" value="Increase Value">+</div>
+                        <a href="" onclick="ordernnow()"  class="btn btn-dark btn1">Order Now</a></form></h5>
+                    </div>
+                  </div>
+                </div>
+                </div><br><br>
+            <div class="card card2 w-50">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="idly_img/se_idly.jpeg" class="img-fluid img1 rounded-start" alt="Schezwan Idly" style="transform: rotate(270deg); width: 170px; height: 230px; position: relative; left: 30px; top:10px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Schezwan Idly     <img src="starters_img/vegsym.png" height="17px" width="17px"></h4><hr>
+                      <p class="card-text">Schezwan idli is a fusion of South Indian idli and Chinese Schezwan chutney. The idli is tossed in hot, spicy, and delicious Schezwan chutney.</p>
+                      <h5 class="card-title">₹ 100[Four peices] <div class="qnt">qty</div> <form>
+                        <div class="value-button decrease" onclick="modifyValue('decrease', 1, 'number9')" value="Decrease Value">-</div>
+              <input type="number" id="number9" value="1" />
+              <div class="value-button increase" onclick="modifyValue('increase', 1, 'number9')" value="Increase Value">+</div>
+                        <a href=""  onclick="ordernnow()" class="btn btn-dark btn1">Order Now</a></form></h5>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                        <script>
+                          const scrollButton = document.getElementById('scrollButton');
+                  
+                          // Function to check if the user has scrolled down
+                          function checkScroll() {
+                              if (window.scrollY > 450) {
+                                  scrollButton.style.display = 'block';
+                              } else {
+                                  scrollButton.style.display = 'none';
+                              }
+                          }
+                  
+                          // Add an event listener to check scroll on scroll event
+                          window.addEventListener('scroll', checkScroll);
+
+                          function modifyValue(action, amount, textBoxId) {
+    var value = parseInt(document.getElementById(textBoxId).value, 10);
+    value = isNaN(value) ? 0 : value;
+
+    if (action === 'increase') {
+      value += amount;
+    } else if (action === 'decrease') {
+      value = value < amount ? 1 : value - amount;
+    }
+
+    document.getElementById(textBoxId).value = value;
+  }
+
+  function ordernnow(){
+    alert("Ordered Successfully");
+  }
+                      </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

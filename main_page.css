@@ -1,0 +1,83 @@
+.style{
+    margin: auto;
+    margin-top:3px;
+    height: 773px;
+    width: 1533px;
+    background-color: red;
+    background-image: linear-gradient(to bottom right, #FD6585, #FFD3A5,#12C2E9 , #F64F59);
+    border:3px solid black;
+    border-radius: 1%;
+}
+.register{
+    margin:auto;
+    margin-top: 135px;
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 1%;
+    box-shadow: -1px -1px 15px 7px white;
+    /* background-image: linear-gradient(to bottom right,#91EAE4,#7F7FD5 ); */
+}
+.content{
+    float:left;
+    width: 600px;
+    text-align: center;
+    margin-top: 150px;
+}
+.glow {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  .button2{
+    position: relative;
+    right:0px;
+    top:300px;
+  }
+  .button1{
+    position: relative;
+    left:258px;
+    top:285px;
+  }
+  .text2{
+    position: relative;
+    top:190px;
+    left:75px;
+  }
+  .text1{
+    position: relative;
+    top:180px;
+    left:75px;
+  }
+  .btlog{
+    position: relative;
+    left:76px;
+    top:200px;
+  }
+  .btsig{
+    position: relative;
+    left:76px;
+    top:200px;
+  }
+  .button-h2:hover{
+    background-color: black;
+    color:white;
+    border: 2px solid black;
+    box-shadow: 5px -5px 10px rgb(249, 249, 249), 0 4px 8px rgb(255, 255, 255);    ;
+  }
+  .button-h1:hover{
+    background-color: black;
+    color:white;
+    border: 2px solid black;
+    box-shadow: -5px -5px 10px rgb(249, 249, 249), 0 4px 8px rgb(255, 255, 255);    ;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #ffffff, 0 0 20px #92f243, 0 0 30px #69f442, 0 0 40px #6ce929, 0 0 50px #2beb21, 0 0 60px #00e60c, 0 0 70px #01892c;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #69f442, 0 0 30px #69f442, 0 0 40px #69f442, 0 0 50px #69f442, 0 0 60px #69f442, 0 0 70px #69f442, 0 0 80px #69f442;
+    }
+  }
